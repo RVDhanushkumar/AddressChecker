@@ -67,7 +67,7 @@ export default function Home() {
             required
             onChange={(e) => setPlace2(e.target.value)}
           />
-          <h3 style={{ color: "red" }}>{msg}</h3>
+          <h3 style={{ color: "red", margin:"10px" }}>{msg}</h3>
           {simi && (
             <h3 style={{ margin: "10px" }}>
               Similarity:  {simi} <br></br> Confidence:  {conf} 
