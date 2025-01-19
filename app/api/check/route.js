@@ -23,8 +23,15 @@ export async function POST(req) {
 
     const model = genAI.getGenerativeModel({
       model: "gemini-2.0-flash-exp",
-      systemInstruction:
-        "Check if both the given addresses are the same. Respond with only JSON in the format: { similarity: true/false, confidenceLevel: 'xx%' }.",
+      systemInstruction: `
+        Compare the two given places and respond in JSON format only.
+        The JSON format should be:
+        {
+          "similarity": true/false,
+          "confidenceLevel": "xx%"
+        }.
+        Base your response on the geographical hierarchy of the locations and whether they overlap or are the same.
+      `,
     });
 
     const generationConfig = {
