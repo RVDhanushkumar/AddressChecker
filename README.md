@@ -10,6 +10,10 @@ Address Checker is a web-based application built using **Next.js** and **Gemini 
   - **Confidence Level:** Percentage indicating how confident the system is about the similarity result.
 - Uses the power of **Google AI Studio's Gemini model** for intelligent and accurate address parsing and comparison.
 
+## Images
+![Screenshot 2025-01-19 145810](https://github.com/user-attachments/assets/80e1bdb2-f000-4e82-a83d-20b01336875e)
+![Screenshot 2025-01-19 145752](https://github.com/user-attachments/assets/75662023-914f-4076-a6c2-d188922e5d96)
+
 ## Technologies Used
 
 - [Next.js](https://nextjs.org/): A React framework for building fast, server-rendered applications.
