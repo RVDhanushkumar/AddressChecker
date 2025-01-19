@@ -75,6 +75,7 @@ export default function Home() {
           )}
           <button onClick={check}>Submit</button>
         </div>
+        <div style={{margin:"10px"}}><h3 >Note:</h3><h3><span style={{color:"greenyellow"}}>Address format: </span>Locality, City, State, Country</h3></div>
       </div>
     </div>
   );
