@@ -45,9 +45,9 @@ export default function Home() {
   return (
     <>
     <head>
-      <title>Geolocation comparison</title>
-      <meta name="description" content="Explore the AI based website that compairs two geolocation"></meta>
-      <meta name="keywords" content="place comparison, geolocation checker, location check, two geolocation check"></meta>
+      <title>Address Checker - Verify Locations Instantly</title>
+        <meta name="description" content="Check and verify addresses instantly with our smart location validation tool." />
+        <meta name="keywords" content="address checker, location verification, address validation" />
     </head>
     <div className="main">
       <div className="center">
