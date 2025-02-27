@@ -43,6 +43,12 @@ export default function Home() {
   };
 
   return (
+    <>
+    <head>
+      <title>Geolocation comparison</title>
+      <meta name="description" content="Explore the AI based website that compairs two geolocation"></meta>
+      <meta name="keywords" content="place comparison, geolocation checker, location check, two geolocation check"></meta>
+    </head>
     <div className="main">
       <div className="center">
         <h1>Address Checker</h1>
@@ -78,5 +84,6 @@ export default function Home() {
         <div style={{margin:"10px"}}><h3 >Note:</h3><h3><span style={{color:"greenyellow"}}>Address format: </span>Locality, City, State, Country</h3></div>
       </div>
     </div>
+  </>
   );
 }
